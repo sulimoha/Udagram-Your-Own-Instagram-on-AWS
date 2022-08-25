@@ -1,0 +1,17 @@
+Deliverables
+
+All project code is stored in a GitHub repository and this link has been submitted for review.
+There are two branches - one for development (dev) and one main. Main should contain the most up-to-date, stable code at the time of submission.
+
+An endpoint URL for a running elastic beanstalk deployment (EB_URL)
+Http://image-filter-solution-code-dev.us-east-1.elasticbeanstalk.com/
+
+
+The project was deployed using the AWS Elastic Beanstalk CLI eb init, eb create, and eb deploy commands.
+
+
+A screenshot of the elastic beanstalk application dashboard is included in a deployment_screenshot directory.
+
+Successful responses have a 200 code, at least one error code for caught errors (i.e. 400)
+
+Starting the server with npm run dev runs a local instance of the server with no errors
